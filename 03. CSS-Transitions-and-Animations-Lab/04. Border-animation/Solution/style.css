@@ -1,0 +1,25 @@
+html{
+    font-family: PT Sans, sans-serif;
+}
+
+section {
+    padding: 15rem;
+    background: #E8EAEE;
+    display: inline-block;
+}
+
+section a {
+    padding: 1rem 2rem;
+    outline: 5px solid #203F5D;
+    margin-left: 1rem;
+    background: white;
+    text-decoration: none;
+    color: #2D2D2D;
+    font-weight: bolder;
+    transition: outline-width 1s;
+}
+
+section a:hover{
+
+    outline-width: 10px;
+}
