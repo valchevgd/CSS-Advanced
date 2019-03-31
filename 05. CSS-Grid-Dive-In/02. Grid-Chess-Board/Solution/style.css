@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 2rem);
+    grid-template-rows: repeat(5, 2rem);
+    grid-gap: 0.5rem;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5rem;
+}
+
+.box{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+}
+
+.box:nth-child(odd){
+    background: black;
+}
